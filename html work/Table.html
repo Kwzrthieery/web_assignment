@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/table.css">
+    <title>Tables</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Service.html">Service</a>
+        <a href="Form.html">Form</a>
+        <a href="Table.html">Table</a>
+        <a href="Mybook.html">Mybook</a>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Tables</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Citizen</td>
+                    <td>This entity deals with all people loging in all registering to deliver requests or ask for assistance through the system.</td>
+                </tr>
+                <tr>
+                    <td>Staff</td>
+                    <td>This entity includes staff members (officers) that are to provide response to citizens and handle their requests. In addition they keeps records and report the progress and cases that were handled.</td>
+                </tr>
+                <tr>
+                    <td>Requests</td>
+                    <td>DThis includes all case requests, who made them, who handled them, when was it requested, and their status(if they are done or still in processing).</td>
+                </tr>
+                <tr>
+                    <td>Reports</td>
+                    <td>This deals with all reports (by indicating what was done, who did it, who it was done for and when).</td>
+                </tr>
+                <tr>
+                    <td>Login_citizen</td>
+                    <td>This is the same as the above associative entity except that it is for citizens instead of staff members.</td>
+                </tr>
+                <tr>
+                    <td>Login_data_staff</td>
+                    <td>This is an associative entity which connects the staff with their login details (username and password).</td>
+                </tr>
+                <tr>
+                    <td>Deleted_citizen</td>
+                    <td>record who was deleted and related info.</td>
+                </tr>
+                <tr>
+                    <td>Deleted_staff</td>
+                    <td>record who was deleted and his info.</td>
+                </tr>
+                <tr>
+                    <td>Updates_on_citizen</td>
+                    <td>this table records what was updated on citizen table. </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

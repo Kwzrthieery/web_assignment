@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/javadesc.css">
+    <title>Java Description</title>
+</head>
+<body>
+	<div class="navbar">
+    	<a href="home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Service.html">Service</a>
+        <a href="Form.html">Form</a>
+        <a href="Table.html">Table</a>
+        <a href="Mybook.html">Mybook</a>
+	</div>
+    <div class="container">
+        <h1 class="title">Java Program Description</h1>
+        
+        <div class="section">
+            <h2 class="section-title">1. Welcome Page</h2>
+            <p class="section-text">This is the first page of the system where system will choose destination depending on the function he/she possess in the company.</p>
+            <img class="section-image" src="img/Picture1.png" alt="image">
+            <p class="section-text">From this form, 2 buttons login, citizen and staff are there with different directions and functions in the system but all having the same goal.</p>
+            <p class="section-text">Citizen: this button is dedicated for system admin to login so that he/she can do more in the system, like adding employee or department and many more.</p>
+            <p class="section-text">Staff: button dedicated to other system users to login and perform some tasks that they are allowed to do so depending on the task they hold in the company.</p>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">2. Citizen Login</h2>
+            <p class="section-text">As we have described in above page citizen button will direct to this citizen login page.</p>
+            <img class="section-image" src="img/Picture2.png" alt="image">
+            <p class="section-text"><strong>Login Button</strong>: If clicked it will verify the credentials entered if it is corrected will be redirected to another respective form. If the credentials aren’t correct it will display the error.</p>
+            <p class="section-text"><strong>Reset Button</strong>: It will remove characters in the textfields.</p>
+            <p class="section-text"><strong>SignUp Button</strong>: if clicked will be redirected to another signup form: </p>
+            <img class="section-image" src="img/Picture3.png" alt="image">
+            <p class="section-text">After entering every thing needed and clicking the sign up button, it will register the new data into the database to be used later while logging in and anywhere else it may be needed.</p>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">2.1 Citizen Logged In (when credentials are correct)</h2>
+            <p class="section-text">Will be directed to the logged in form (the citizen’s portal):</p>
+            <img class="section-image" src="img/Picture4.png" alt="image">
+            <p class="section-text"><strong>Make a request:</strong> when this button is clicked it will provide a window allowing a citizen to make a request. On send, it will send the request in database to be sent to an appropriate staff member.</p>
+            <img class="section-image" src="img/Picture5.png" alt="image">
+            <p class="section-text"><strong>View request Status/Response:</strong> when clicked it will display the form asking for a request id then show the status of the given request:</p>
+            <img class="section-image" src="img/Picture6.png" alt="image">
+            <img class="section-image" src="img/Picture7.png" alt="image">
+            <p class="section-text"><strong>View Staff Assigned:</strong> when clicked it will view the staff assigned to their request:</p>
+            <img class="section-image" src="img/Picture8.png" alt="image">
+            <p class="section-text"><strong>Logout:</strong> when clicked it will logout and close the form.</p>
+            <p class="section-text"><strong>Delete Account:</strong> it will prompt the user if he/she is sure if the user clicks yes then their corresponding account will be deleted from the database.</p>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">3. Staff Login</h2>
+            <p class="section-text">After clicking on Staff on the welcome page form you are directed to this form. Which prompt the user to enter the username and the password and then verify it against the data in the database.</p>
+            <img class="section-image" src="img/Picture9.png" alt="image">
+            <p class="section-text"><strong>Reset:</strong> This removes all characters in all textfields.</p>
+            <p class="section-text"><strong>Login:</strong> When clicked it will verify the data entered it doesn’t match then it will say it. If it matches with the one in the database he/she will be directed to the staff logged in form (the staff portal).</p>
+            <img class="section-image" src="img/Picture10.png" alt="image">
+            <p class="section-text"><strong>View Received Request:</strong> When clicked on, it will view the requests received or assigned and or information regarding it. Including the date it was submitted, request ID, the request and the citizen id related to the citizen who submitted the request</p>
+            <img class="section-image" src="img/Picture11.png" alt="image">
+            <p class="section-text"><strong>View Citizen Data:</strong> when this button is clicked It will prompt the user to input the citizen id of the citizen you want to view information about. Then the system will use the citizen id to lookup and view data in the database.</p>
+            <img class="section-image" src="img/Picture12.png" alt="image">
+            <img class="section-image" src="img/Picture13.png" alt="image">
+            <p class="section-text"><strong>Provide Response:</strong> When clicked it will ask the user to enter the request id of the request he/she want to provide a response for. Then provide a form with a textfield to enter the response. After entering the response and clicking the OK button, it will send the data to the database to be sent to the citizen.</p>
+            <img class="section-image" src="img/Picture14.png" alt="image">
+            <img class="section-image" src="img/Picture15.png" alt="image">
+            <p class="section-text"><strong>Logout:</strong> When clicked it will log out the current staff and dispose all forms.</p>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">END</h2>
+        </div>
+    </div>
+</body>
+</html>

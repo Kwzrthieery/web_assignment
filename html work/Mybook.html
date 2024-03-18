@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>My book</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Service.html">Service</a>
+        <a href="Form.html">Form</a>
+        <a href="Table.html">Table</a>
+        <a href="Mybook.html">Mybook</a>
+        <a href="doc/KWIZERA_THIERRY_222003408.docx"><button>Download</button></a>
+    </div>
+    <h1>E-Lo system book</h1>
+    <div class="container">
+        <p><strong>SCHOOL OF BUSINESS AND ECONOMICS</strong></p>
+<p><strong>DEPARTMENT OF BUSINESS TECHNOLOGY</strong></p>
+<p><strong>SYSTEM ENGINEERING</strong></p>
+<p><strong>Student name: KWIZERA Thierry</strong></p>
+<p><strong>Reg No: 222003408</strong></p>
+<p><strong>Submitted to: Dr. BUGINGO Emmanuel</strong></p>
+<p><strong>Date: 19/07/2023</strong></p>
+<p>Table of Contents</p>
+<p><a href="#_Toc139717248">Table of Contents........................................................................................................... 2</a></p>
+<ol>
+<li><a href="#_Toc139717249"> Introduction................................................................................................................. 4</a></li>
+<li><a href="#_Toc139717250"> Statement of the problem............................................................................................ 5</a></li>
+</ol>
+<p><a href="#_Toc139717251">2.1 Description of the existing system........................................................................ 5</a></p>
+<p><a href="#_Toc139717252">2.2 Problems of the current system............................................................................ 6</a></p>
+<p><a href="#_Toc139717253">2.3 How the proposed system will work..................................................................... 7</a></p>
+<p><a href="#_Toc139717254">2.4 Describe other alternatives.................................................................................... 8</a></p>
+<ol start="3">
+<li><a href="#_Toc139717255"> Software requirement........................................................................................... 10</a></li>
+</ol>
+<p><a href="#_Toc139717256">3.1 User Requirements............................................................................................. 10</a></p>
+<p><a href="#_Toc139717257">3.1.1 Functional requirement................................................................................ 11</a></p>
+<p><a href="#_Toc139717258">3.1.2 Non-function requirement........................................................................... 13</a></p>
+<p><a href="#_Toc139717259">Portability requirement:........................................................................................ 13</a></p>
+<p><a href="#_Toc139717260">Reliability requirement:........................................................................................ 13</a></p>
+<p><a href="#_Toc139717261">Usability requirement:.......................................................................................... 13</a></p>
+<p><a href="#_Toc139717262">Space requirement:............................................................................................... 14</a></p>
+<p><a href="#_Toc139717263">Organization requirement:.................................................................................... 14</a></p>
+<p><a href="#_Toc139717264">Implementation requirement:............................................................................... 14</a></p>
+<p><a href="#_Toc139717265">External environment requirement:...................................................................... 14</a></p>
+<p><a href="#_Toc139717266">Privacy requirement:............................................................................................ 14</a></p>
+<p><a href="#_Toc139717267">Safety requirement:.............................................................................................. 14</a></p>
+<p><a href="#_Toc139717268">3.2 System requirements.......................................................................................... 14</a></p>
+<p><a href="#_Toc139717269">3.2.1 Minimum End-user Hardware Requirements.............................................. 14</a></p>
+<p><a href="#_Toc139717270">3.2.2 Minimum End-user Software Requirements............................................... 15</a></p>
+<p><a href="#_Toc139717271">3.3 Software specifications:...................................................................................... 16</a></p>
+<p><a href="#_Toc139717272">3 DATA FLOW DIAGRAM (LEVEL 0, LEVEL 1<strong>)</strong>................................................... 18</a></p>
+<p><a href="#_Toc139717273">4.1 DFD LEVEL 0................................................................................................... 18</a></p>
+<p><a href="#_Toc139717274">4.2 DFD LEVEL 1................................................................................................... 19</a></p>
+<ol start="5">
+<li><a href="#_Toc139717275"> Feasibility study....................................................................................................... 19</a></li>
+</ol>
+<p><a href="#_Toc139717276">5.2 Financial Feasibility........................................................................................... 20</a></p>
+<p><a href="#_Toc139717277">5.3 Market Feasibility.............................................................................................. 20</a></p>
+<p><a href="#_Toc139717278">5.4 Economic Feasibility.......................................................................................... 20</a></p>
+<p><a href="#_Toc139717279">5.5 Legal and Regulatory Feasibility....................................................................... 20</a></p>
+<p><a href="#_Toc139717280">5.6 Operational Feasibility....................................................................................... 20</a></p>
+<ol start="6">
+<li><a href="#_Toc139717281"> Description of the selected Process Model............................................................... 20</a></li>
+</ol>
+<p><a href="#_Toc139717282">6.1 Cause of your selection....................................................................................... 22</a></p>
+<ol start="7">
+<li><a href="#_Toc139717283"> Conclusion................................................................................................................ 23</a></li>
+<li><a href="#_Toc139717284"><em>References</em>................................................................................................................. 23</a></li>
+</ol>
+<p>Table of figures</p>
+<p><a href="#_Toc139540129">Figure 1....................................................................................................................... 21</a></p>
+<p><a href="#_Toc139540130">Figure 2....................................................................................................................... 22</a></p>
+<p>List of tables</p>
+<p><a href="#_Toc139717805">Table 1........................................................................................................................... 8</a></p>
+<p><a href="#_Toc139717806">Table 2........................................................................................................................... 8</a></p>
+<h1>1. Introduction</h1>
+<p>Introducing e-LO Management System: Empowering Local Office Authorities for Efficient Operations</p>
+<p>Welcome to e-LO Management System, an innovative solution designed to revolutionize the way local office authorities manage their operations. We are proud to present a cutting-edge platform that streamlines administrative tasks, enhances communication, and enables efficient decision-making for local offices.</p>
+<p>In today's fast-paced world, local office authorities face numerous challenges in managing their day-to-day operations. Traditional manual systems often lead to inefficiencies, delays, and information gaps, hindering the ability to serve the community effectively. Recognizing these challenges, we have developed e-LO Management System to empower local office authorities with an integrated and comprehensive solution.</p>
+<p>e-LO stands for "Electronic Local Office," and the system leverages the power of technology to provide a user-friendly and efficient platform. With e-LO, local office authorities can seamlessly manage a wide range of administrative tasks, fostering improved coordination, transparency, and productivity.</p>
+<p>The system offers a diverse range of features specifically tailored to the needs of local office authorities. It includes functionalities such as: Document Management, Task and Workflow Management., Public Service Requests, Communication and Collaboration, Reporting and Analytics, Security and Access Controls, User-Friendly Interface:</p>
+<h1>2. Statement of the problem</h1>
+<h2>2.1 Description of the existing system</h2>
+<p>The existing system of local office services provision and requesting aims to facilitate efficient communication and delivery of services between local office authorities and citizens. This system typically includes various channels and processes to ensure that citizens can access the services they need and communicate their requests effectively.</p>
+<p>Service Offerings: Local office authorities define and provide a range of services to meet the needs of the community. These services may include issuing permits and licenses, handling public service requests, managing land and property records, providing social welfare support, and more.</p>
+<p>Service Request Submission: Citizens can submit service requests through designated channels, such as online portals, phone calls, email, or in-person visits to the local office. The request process may involve filling out application forms, attaching supporting documents, and providing relevant information for processing. Which requires a lot of time</p>
+<p>Request Processing: Local office authorities receive and process service requests in a timely manner. They review submitted applications, verify documents, and assess eligibility.</p>
+<p>Communication and Updates: Local office authorities maintain communication with citizens regarding their service requests. This can be done through various means, such as email notifications, SMS updates, or phone calls, keeping citizens informed about the progress, any additional requirements, and the final outcome of their requests. Even though sometime its is not the case according to a given area.</p>
+<p>Service Delivery: Once a request is approved and processed, local office authorities provide the requested service to the citizen. This may involve issuing permits or licenses, resolving public service requests, providing social assistance, or addressing other specific needs.</p>
+<p>Feedback and Complaint Resolution: Local office authorities often encourage citizens to provide feedback on the services received. This feedback helps in identifying areas for improvement and ensuring the quality and effectiveness of services. In case of any complaints or concerns, a designated process is in place to address and resolve them in a fair and transparent manner.</p>
+<p>Service Evaluation and Enhancement: Local office authorities periodically evaluate the effectiveness and efficiency of their service provision. They may conduct surveys, analyze data, and seek citizen feedback to identify areas for improvement. Based on the evaluation, enhancements are made to streamline processes, improve service quality, and address any identified gaps.</p>
+<p>It's important to note that the specifics of the existing system can vary based on the local office's jurisdiction, resources, and technology adoption. Some local offices may have implemented digital platforms or specialized software systems to enhance service delivery and request management.</p>
+<h2>2.2 Problems of the current system</h2>
+<p>The current system of local office authority provision and requesting services may face several challenges that can hinder efficient service delivery and citizen satisfaction. Some common problems include:</p>
+<p>Manual and Paper-Based Processes: Many local offices still rely on manual and paper-based processes, leading to inefficiencies, delays, and errors</p>
+<p>Limited Accessibility: The existing system may not provide convenient and accessible channels for citizens to request services. Lack of online portals or limited office hours can make it challenging for citizens to submit their requests, particularly for those with time constraints or limited mobility.</p>
+<p>Inconsistent Service Quality: Different local offices may have varying levels of efficiency, accuracy, and responsiveness in processing requests, leading to disparities in service experiences for citizens.</p>
+<p>Lack of Transparent and Timely Updates: Citizens often experience a lack of transparency and timely updates on the status of their service requests. This can lead to frustration and confusion, as they may not know when their request will be processed or what additional steps are required</p>
+<p>Limited Communication Channels: Insufficient communication channels between local office authorities and citizens can result in difficulty in reaching out for inquiries, updates, or issue resolution. Lack of clear lines of communication can lead to citizen frustration and dissatisfaction.</p>
+<p>Lengthy Processing Times: Service request processing times can be lengthy in the current system, causing delays in obtaining necessary permits, licenses, or assistance. Lengthy processing times can negatively impact citizen experiences and hinder timely decision-making or project execution.</p>
+<p>Lack of Data Analysis and Performance Monitoring: The current system may lack comprehensive data analysis and performance monitoring capabilities. Without these insights, local office authorities may struggle to identify obstacles, evaluate service effectiveness, and implement improvements to optimize service delivery.</p>
+<p>Limited Feedback Mechanisms: Feedback mechanisms for citizens to provide suggestions, complaints, or feedback on the service provision process may be limited or not well-utilized. This can result in missed opportunities for improvement and addressing citizen concerns.</p>
+<p>Security and Privacy Concerns: Inadequate security measures for handling sensitive citizen information can pose risks to privacy and data protection. Without robust data security measures, citizens may have concerns about submitting personal information or documents.</p>
+<h2>How the proposed system will work</h2>
+<p>e-LO system aims to address the challenges of the current system and enhance the efficiency and effectiveness of local office service provision and requesting. Here's how the e-LO system will work:</p>
+<p>Citizen registration: citizens or visitors of the system who are not the admin or the staff will be allowed to register so that their records and information can be stored electronically and also facilitate for further processing and services</p>
+<p>Online Service Request Submission: Citizens can access the e-LO system through an online portal, where they can submit service requests conveniently from anywhere and at any time. The portal will provide a user-friendly interface, guiding citizens through the request submission process and ensuring they provide all necessary information and documentation</p>
+<p>This table shows some of the services which will be integrated in the system</p>
+<table width="575">
+<tbody>
+<tr>
+<td width="287">
+<p>Category ID</p>
+</td>
+<td width="289">
+<p>Category Name</p>
+</td>
+</tr>
+<tr>
+<td width="287">
+<p>1</p>
+</td>
+<td width="289">
+<p>Document Request</p>
+</td>
+</tr>
+<tr>
+<td width="287">
+<p>2</p>
+</td>
+<td width="289">
+<p>Permit Application</p>
+</td>
+</tr>
+<tr>
+<td width="287">
+<p>3</p>
+</td>
+<td width="289">
+<p>Complaint Application</p>
+</td>
+</tr>
+<tr>
+<td width="287">
+<p>4</p>
+</td>
+<td width="289">
+<p>Payment Services</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Table 1</p>
+<p>Automated Request Processing: Once a service request is submitted, the e-LO system automatically routes it to the relevant local office authority for processing. The system uses predefined workflows and business rules to streamline the request handling process, ensuring that requests are directed to the appropriate department or personnel for review and approval.</p>
+<p>This table shows request status in the system</p>
+<table width="575">
+<tbody>
+<tr>
+<td width="286">
+<p>Status ID</p>
+</td>
+<td width="289">
+<p>Status Name</p>
+</td>
+</tr>
+<tr>
+<td width="286">
+<p>1</p>
+</td>
+<td width="289">
+<p>Pending</p>
+</td>
+</tr>
+<tr>
+<td width="286">
+<p>2</p>
+</td>
+<td width="289">
+<p>In progress</p>
+</td>
+</tr>
+<tr>
+<td width="286">
+<p>3</p>
+</td>
+<td width="289">
+<p>Completed</p>
+</td>
+</tr>
+<tr>
+<td width="286">
+<p>4</p>
+</td>
+<td width="289">
+<p>Rejected</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Table 2</p>
+<p>Transparent Request Tracking: Citizens can track the progress of their service requests in real-time through the e-LO system. They will receive notifications and updates at each stage of the processing, enabling them to stay informed about the status of their requests. This transparency enhances citizen engagement and satisfaction.</p>
+<p>Efficient Communication Channels: The e-LO system provides multiple communication channels for citizens to interact with local office authorities. These channels may include messaging systems and email, allowing citizens to seek clarifications, provide additional information, or inquire about their requests. Local office authorities can respond promptly, ensuring effective communication and addressing citizen queries.</p>
+<p>Document Management and Digital Records: The e-LO system enables local office authorities to manage documents and records electronically. Citizens can submit supporting documents digitally, reducing the reliance on physical paperwork. This digital document management system improves data accuracy, minimizes manual errors, and enhances document retrieval and archiving processes.</p>
+<p>Performance Analytics and Reporting: The e-LO system incorporates robust analytics and reporting capabilities. Local office authorities can generate reports and analyze data to gain insights into service performance, identify bottlenecks, and make data-driven decisions. This empowers them to monitor and improve service quality and operational efficiency continually.</p>
+<p>Feedback Mechanisms: The e-LO system includes built-in feedback mechanisms for citizens to provide their input on the service provision process. This feedback can be collected through surveys, rating systems, or online comment sections. Local office authorities can use this feedback to address concerns, identify areas for improvement, and enhance citizen satisfaction.</p>
+<p>Secure Data Handling: The e-LO system prioritizes data security and privacy. It implements robust security measures, such as encryption protocols, access controls, and regular data backups, to protect citizen information and maintain compliance with relevant data protection regulations.</p>
+<p>The e-LO system revolutionizes the local office service provision and requesting process by leveraging technology, streamlining workflows, and enhancing communication and transparency. Through its user-friendly interface, automated processes, and data-driven insights, the e-LO system empowers local office authorities to deliver efficient and citizen-centric services, fostering a positive and seamless experience for both local office authorities and citizens.</p>
+<h2>Describe other alternatives</h2>
+<p>Mobile Applications: Developing dedicated mobile applications for local office services can provide citizens with a convenient and accessible platform to submit service requests, track progress, and communicate with local office authorities. Mobile apps can leverage smartphone features such as GPS for location-based services and push notifications for timely updates.</p>
+<p>Interactive Voice Response (IVR) Systems: Implementing IVR systems can enable citizens to access service information and submit requests through phone calls using voice commands. IVR systems can guide citizens through the process, gather necessary information, and provide automated updates on request status. For instance those automated voices you hear while calling to MTN or AIRTEL.</p>
+<p>Self-Service Kiosks: Installing self-service kiosks in public locations allows citizens to access local office services independently. These kiosks can provide information, accept document submissions, and guide citizens through the request process. Kiosks can be equipped with touchscreens, document scanners, and printers to facilitate efficient transactions.</p>
+<p>Citizen Service Centers: Establishing dedicated citizen service centers staffed with trained personnel can provide personalized assistance to citizens in navigating the service provision process. These centers can offer in-person support, document verification, and guidance on completing application forms.</p>
+<p>Online Chat Support: Integrating live chat support on the local office website or online portal allows citizens to interact with customer service representatives in real-time. Chat support can address queries, provide guidance, and assist citizens in submitting their service requests.</p>
+<p>Collaborative Platforms: Utilizing collaborative platforms, such as online forums or community-based websites, can encourage citizens to help each other by sharing experiences, providing tips, and answering questions related to local office services. This fosters a sense of community support and reduces reliance on direct assistance from local office authorities.</p>
+<p>Partnership with Local Businesses: Collaborating with local businesses, such as post offices, banks, or community centers, can provide additional points of service for citizens to submit service requests or receive assistance. This approach leverages existing infrastructure and extends service accessibility beyond the traditional local office premises.</p>
+<p>Third-Party Service Providers: Partnering with trusted third-party service providers, such as licensed agents or agencies, can offer citizens an alternative option for submitting service requests. These providers can assist citizens in completing application forms, verifying documents, and submitting requests on their behalf (such as Irembo)</p>
+<p>These alternatives offer different approaches to address the challenges of local office service provision and requesting, considering factors such as technology adoption, resource availability, and citizen preferences. Each alternative can be tailored to the specific needs and constraints of the local office authorities and the community they serve.</p>
+<h2>3. Software requirement</h2>
+<h2>3.1 User Requirements</h2>
+<p>User Requirements for the e-LO System:</p>
+<p>User-Friendly Interface: The e-LO system should have an intuitive and user-friendly interface that is easy to navigate for citizens of varying technical abilities. It should require minimal training and provide clear instructions for each step of the service request submission process.</p>
+<p>Online Service Request Submission: Citizens should be able to submit service requests online through the e-LO system. The system should provide a structured and guided process, allowing citizens to select the appropriate service category, provide necessary details, and upload required documents securely.</p>
+<p>Appointment Scheduling: The e-LO system should allow citizens to schedule appointments for in-person service if needed. The system should provide a range of available time slots and allow users to select the most convenient one, minimizing wait times and ensuring efficient service delivery.</p>
+<p>Transparent Request Tracking: Citizens should have access to a tracking feature within the e-LO system that provides real-time updates on the status of their service requests. This feature should display the current stage of processing, estimated completion time, and any additional requirements or actions needed from the citizen.</p>
+<p>Communication Channels: The e-LO system should support multiple communication channels for citizens to interact with local office authorities. This may include email notifications, SMS alerts, online chat support, or a helpline to address inquiries, provide updates, and resolve any issues related to service requests.</p>
+<p>Document Management: The e-LO system should have a secure and efficient document management feature. Citizens should be able to upload and attach digital copies of required documents during the request submission process. The system should support common file formats, ensure data privacy, and enable easy retrieval of uploaded documents when needed.</p>
+<p>Feedback and Complaint Mechanisms: The e-LO system should provide mechanisms for citizens to provide feedback on their service experiences and raise complaints if necessary. This may include online feedback forms, ratings, or a dedicated complaint resolution process. The system should ensure that feedback is acknowledged, addressed, and utilized to improve service quality.</p>
+<p>Accessibility and Multilingual Support: The e-LO system should be designed to accommodate diverse user needs. It should prioritize accessibility by complying with web accessibility standards, supporting screen readers, and providing alternative text for images. Multilingual support should be available to cater to citizens who prefer to interact in languages other than the default language.</p>
+<p>Data Security and Privacy: The e-LO system should adhere to stringent data security and privacy measures. It should incorporate encryption protocols, secure data storage, and access controls to protect citizen information. Compliance with relevant data protection regulations and guidelines should be ensured throughout the system.</p>
+<p>Training and Support: Local office authorities should provide adequate training and support to citizens on how to use the e-LO system. This may include video tutorials, user guides, or in-person assistance to ensure that citizens can effectively utilize the system and maximize its benefits.</p>
+<h3>3.1.1 Functional requirement</h3>
+<p>Functional requirements for the e-LO system can include the following:</p>
+<p>User Registration and Authentication:</p>
+<p>Provide user registration functionality for citizens and local office staff.</p>
+<p>Implement authentication mechanisms, such as username/password or multi-factor authentication, to ensure secure access to the system.</p>
+<p>Service Request Submission:</p>
+<p>Enable citizens to submit service requests online, providing a user-friendly interface to enter required information.</p>
+<p>Support attachment uploads for submitting supporting documents electronically.</p>
+<p>Validate and verify the completeness of the submitted request to minimize errors and omissions.</p>
+<p>Workflow Management:</p>
+<p>Implement automated workflows to route service requests to the appropriate departments or personnel for review and approval.</p>
+<p>Define and configure different workflows based on the nature of the service requested.</p>
+<p>Allow administrators to customize and update workflows as needed.</p>
+<p>Request Tracking and Status Updates:</p>
+<p>Provide real-time tracking of service requests for citizens, allowing them to check the status of their requests at any time.</p>
+<p>Send automated notifications or updates to citizens regarding the progress and any additional requirements for their requests.</p>
+<p>Enable local office staff to update the status of requests and add relevant notes or comments.</p>
+<p>Communication and Messaging:</p>
+<p>Incorporate communication channels, such as messaging systems or chatbots, for citizens to interact with local office authorities.</p>
+<p>Allow citizens to seek clarifications, provide additional information, or inquire about their service requests.</p>
+<p>Enable staff members to respond promptly to citizen inquiries and provide necessary guidance or support.</p>
+<p>Appointment Management:</p>
+<p>Integrate appointment scheduling functionality, allowing citizens to book appointments for in-person visits, if required.</p>
+<p>Provide a calendar view for available appointment slots and automated confirmation and reminder notifications.</p>
+<p>Reporting and Analytics:</p>
+<p>Generate reports and analytics to provide insights into service performance, request volume, processing times, and other relevant metrics.</p>
+<p>Allow administrators to analyze data and identify areas for improvement in service delivery.</p>
+<p>Feedback and Rating System:</p>
+<p>Incorporate a feedback mechanism for citizens to provide feedback on their service experiences.</p>
+<p>Implement a rating system or surveys to gather feedback and evaluate the satisfaction levels of citizens.</p>
+<p>Enable local office authorities to review and respond to citizen feedback and take necessary actions for improvement.</p>
+<p>Document Management:</p>
+<p>Provide a secure document repository for storing and managing citizen documents and records.</p>
+<p>Allow authorized staff members to access and retrieve documents as needed.</p>
+<p>Implement appropriate security measures to protect sensitive citizen information.</p>
+<p>System Administration:</p>
+<p>Include administrative functionalities to manage user accounts, roles, and permissions.</p>
+<p>Allow administrators to configure system settings, workflows, and notifications.</p>
+<p>Ensure system scalability, performance, and security through regular maintenance and updates.</p>
+<p>These functional requirements provide a foundation for the development of the e-LO system, addressing key functionalities required to streamline local office service provision and requesting processes.</p>
+<h3>3.1.2 Non-function requirement</h3>
+<h3>Portability requirement:</h3>
+<p>The system should be compatible with multiple platforms, such as web browsers, mobile devices, and operating systems, to ensure accessibility for a wide range of users.</p>
+<h3>Reliability requirement:</h3>
+<p>The system should have a high level of reliability, ensuring minimal downtime and uninterrupted availability of services.</p>
+<p>It should be able to handle a large number of concurrent users and process service requests efficiently without performance degradation.</p>
+<h3>Usability requirement:</h3>
+<p>The system should have a user-friendly interface with intuitive navigation and clear instructions to facilitate easy adoption and usage by citizens and local office staff.</p>
+<p>It should support multiple languages, ensuring inclusivity for users with diverse linguistic backgrounds.</p>
+<p>The system should provide helpful tooltips, error messages, and guidance to assist users in completing forms and submitting requests accurately.</p>
+<h3>Space requirement:</h3>
+<p>&nbsp;The system should have a minimal storage footprint to optimize resource usage and accommodate efficient data storage and retrieval.</p>
+<p>The system should support scalable storage solutions to handle increasing data volumes as the user base grows.</p>
+<h3>Organization requirement:</h3>
+<p>The system should support role-based access control, allowing different levels of authorization for administrators, local office staff, and citizens.</p>
+<p>It should provide administrative tools for managing user accounts, permissions, and organizational hierarchy.</p>
+<h3>Implementation requirement:</h3>
+<p>The system should adhere to industry-standard coding practices and architectural patterns to ensure maintainability, scalability, and extensibility.</p>
+<p>It should comply with relevant coding and documentation standards, ensuring the ease of understanding, modification, and future enhancements.</p>
+<h3>External environment requirement:</h3>
+<p>The system should be designed to operate efficiently in various network conditions, including low-bandwidth or intermittent connectivity scenarios.</p>
+<p>It should be compatible with different internet browsers and adapt to varying screen sizes and resolutions for optimal user experience.</p>
+<h3>Privacy requirement:</h3>
+<p>The system should comply with data protection regulations and implement robust security measures to safeguard citizen information and prevent unauthorized access or data breaches.</p>
+<p>It should provide options for citizens to control and manage their personal data, including consent management and data deletion requests.</p>
+<h3>Safety requirement:</h3>
+<p>The system should undergo rigorous testing and adhere to security best practices to ensure the safety and integrity of user data.</p>
+<p>It should employ measures to prevent system vulnerabilities, such as protection against SQL injection, cross-site scripting and other common security threats.</p>
+<h2>3.2 System requirements</h2>
+<h3>3.2.1 Minimum End-user Hardware Requirements</h3>
+<p>Desktop/Laptop:</p>
+<p>Operating System: Windows 7 or later, macOS, or a compatible Linux distribution.</p>
+<p>Processor: Intel Core i3 or equivalent.</p>
+<p>Memory (RAM): 2GB or higher.</p>
+<p>Storage: At least 50GB of free disk space.</p>
+<p>Display: Minimum resolution of 1280x800 pixels.</p>
+<p>Internet Connectivity: Broadband internet connection (recommended for optimal performance).</p>
+<p>Mobile Device (Smartphone/Tablet):</p>
+<p>Operating System: iOS 10 or later for Apple devices, Android 6.0 or later for Android devices.</p>
+<p>Processor: Quad-core or equivalent.</p>
+<p>Memory (RAM): 2GB or higher.</p>
+<p>Storage: Sufficient free storage space for installing the e-LO application and storing related data.</p>
+<p>Display: Minimum screen size of 4.5 inches with a resolution of 720x1280 pixels.</p>
+<p>Internet Connectivity: Wi-Fi or mobile data connection (3G/4G/LTE) for accessing the e-LO system.</p>
+<p>It's important to note that these are basic hardware requirements, and for optimal performance and user experience, it's recommended to have hardware configurations that exceed these minimum specifications.</p>
+<p>Additionally, compatibility with different screen sizes and resolutions should be considered to ensure proper display and usability on various devices, ranging from small smartphones to large desktop monitors.</p>
+<p>The e-LO system will be designed with responsive web design or have dedicated mobile applications available to accommodate a wide range of devices and screen sizes.</p>
+<p>These hardware requirements aim to provide a guideline for end-users to have hardware that can adequately support the e-LO system, ensuring smooth operation and optimal user experience.</p>
+<h3>3.2.2 Minimum End-user Software Requirements</h3>
+<p>Web Browser:</p>
+<p>The browser should be of a recent version to ensure compatibility with modern web technologies.</p>
+<p>Mobile Devices:</p>
+<p>Users should have a compatible mobile browser installed, such as Chrome for Android or Safari for iOS.</p>
+<p>Operating System:</p>
+<p>Users should have a supported version of the operating system installed on their devices. (WINDOWS, LINUX, MACOS, ANDROID, IOS)</p>
+<p>Internet Connectivity:</p>
+<p>Users should have a stable internet connection to access and use the e-LO system effectively.</p>
+<p>The system should be designed to accommodate various network conditions, including low-bandwidth or intermittent connectivity.</p>
+<p>JavaScript and Cookies:</p>
+<p>Users should have JavaScript enabled in their web browsers to ensure proper functioning of the system's interactive features.</p>
+<p>Cookies should be enabled to support user authentication and session management within the system.</p>
+<p>It's important to note that the specific software requirements may vary based on the implementation and technical specifications of the e-LO system. These minimum requirements provide a general guideline for end-users to access and utilize the system's functionalities effectively.</p>
+<h2>Software specifications:</h2>
+<p>1.Programming Languages and Frameworks:</p>
+<p>The system will be developed using languages such as Java, Python, or .NET</p>
+<p>Web frameworks like Django, Spring Boot, or ASP.NET can be utilized to facilitate rapid development and efficient implementation.</p>
+<p>2.Database Management System:</p>
+<p>A relational database management system (RDBMS) such as MySQL or Oracle will be used to store and manage data related to service requests, user accounts, and system configurations.</p>
+<p>3.Web Development Technologies:</p>
+<p>HTML5, CSS3, and JavaScript will be employed to build the user interface and ensure a responsive and interactive user experience.</p>
+<p>Front-end frameworks and libraries like React, Angular, or Vue.js will be used to enhance UI development and provide a modern and dynamic interface.</p>
+<p>4.APIs and Web Services:</p>
+<p>RESTful APIs can be implemented to enable communication and data exchange between the e-LO system and external systems or modules.</p>
+<p>Integration with external services, such as payment gateways or notification services, may require the use of specific APIs or web service protocols.</p>
+<p>5.Security Measures:</p>
+<p>The system will implement industry-standard security measures, including encryption protocols (e.g., SSL/TLS) to secure data transmission over the network.</p>
+<p>Proper user authentication and authorization mechanisms should be implemented, such as using hashed passwords, role-based access control (RBAC), and session management.</p>
+<p>Protection against common security threats, like cross-site scripting (XSS) and SQL injection, should be incorporated.</p>
+<p>6.System Scalability and Performance:</p>
+<p>The system architecture should be designed to handle a large number of concurrent users and service requests.</p>
+<p>Performance optimization techniques, such as caching, database indexing, and query optimization, should be employed to ensure efficient data retrieval and processing.</p>
+<p>7.Deployment and Hosting:</p>
+<p>The system will be deployed on a reliable and scalable hosting environment, such as cloud platforms like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).</p>
+<p>Containerization technologies like Docker can be used to package and deploy the system components, ensuring consistency and portability across different environments.</p>
+<p>These software specifications provide a foundation for the development and implementation of the e-LO system, considering factors such as technology choices, security, scalability, and performance. The specific specifications may vary based on the requirements and constraints of the local office authority and the development team.</p>
+<h1>2 DATA FLOW DIAGRAM (LEVEL 0, LEVEL 1<strong>)</strong></h1>
+<h2>4.1 DFD LEVEL 0</h2>
+<p>Figure 1</p>
+<p>This figure defines the boundary between the&nbsp;system, or part of a system, and its environment, showing the entities that interact with it, this diagram is a high level view of a&nbsp;system.</p>
+<h2>4.2 DFD LEVEL 1</h2>
+<p>Figure 2</p>
+<p>This diagram shows the whole system is represented as a single process. A level 1 DFD notates each of the main sub-processes that together form the complete system.</p>
+<h1>5. Feasibility study</h1>
+<p>5.1 Technical Feasibility</p>
+<p>The required technical resources, including hardware, software, and network infrastructure, are readily available. The proposed system can be developed using modern programming languages and frameworks, ensuring compatibility with existing technologies. The technical feasibility study indicates that the e-LO system can be successfully developed and implemented within the existing technical landscape.</p>
+<h2>5.2 Financial Feasibility</h2>
+<p>The financial benefits, coupled with the potential cost savings and improved service delivery, make the e-LO system financially feasible and advantageous for local office authorities.</p>
+<h2>5.3 Market Feasibility</h2>
+<p>With the increasing digitization of services and the growing demand for efficient and user-friendly platforms, there is a favorable market environment for a comprehensive and streamlined local office service provision and requesting system. The e-LO system holds promise in capturing a significant market share by catering to the evolving needs of local communities</p>
+<h2>5.4 Economic Feasibility</h2>
+<p>By digitizing and streamlining local office service provision and requesting, the e-LO system is expected to reduce operational costs, enhance efficiency, and improve service quality. The initial investment required for system development, infrastructure, and training will be outweighed by the projected long-term cost savings and increased productivity.</p>
+<h2>5.5 Legal and Regulatory Feasibility</h2>
+<p>The system has been designed to safeguard privacy, security, and confidentiality of citizen information in accordance with relevant data protection laws. It adheres to legal requirements regarding data storage, handling, and consent management.</p>
+<h2>5.6 Operational Feasibility</h2>
+<p>The system's compatibility with existing infrastructure, adherence to regulatory requirements, and the availability of technical resources further contribute to its operational feasibility. Overall, the e-LO system offers practical and tangible advantages, making it a viable solution for optimizing local office service provision.</p>
+<h1>6. Description of the selected Process Model</h1>
+<p>The e-LO (Electronic Local Office) system will be developed using the Agile software development model, a collaborative and iterative approach that promotes flexibility, continuous improvement, and customer involvement. The Agile model will enable the development team to adapt to changing requirements, enhance transparency, and deliver a high-quality e-LO system that meets the needs of local office authorities and citizens. Here's how the Agile model will be implemented for the e-LO system:</p>
+<ol>
+<li>Project Initiation:</li>
+</ol>
+<p>&nbsp;The project will start with an initial analysis of requirements, goals, and stakeholders' expectations. The product vision and project scope will be defined, focusing on the key functionalities and user stories of the e-LO system.</p>
+<ol start="2">
+<li>Agile Team Formation:</li>
+</ol>
+<p>An Agile team will be formed, comprising cross-functional members, including developers, testers, UI/UX designers, and domain experts. The team will work collaboratively, ensuring effective communication, knowledge sharing, and decision-making.</p>
+<ol start="3">
+<li>Product Backlog Creation:</li>
+</ol>
+<p>The product backlog, consisting of user stories and feature requirements, will be established. The backlog will be prioritized based on the value it delivers to local office authorities and citizens.</p>
+<ol start="4">
+<li>Sprint Planning:</li>
+</ol>
+<p>The development process will be divided into time-boxed iterations called sprints. The Agile team will collaborate to select a set of user stories from the product backlog to be completed during each sprint. Sprint goals and deliverables will be defined.</p>
+<ol start="5">
+<li>Sprint Execution:</li>
+</ol>
+<p>The development team will work on the selected user stories during the sprint. Daily stand-up meetings will be conducted to discuss progress, address challenges, and ensure alignment within the team.</p>
+<p>Developers will implement the functionalities, designers will work on the user interface, and testers will conduct continuous testing to identify and address any issues early in the development process.</p>
+<p>The e-LO system will be built incrementally, with each sprint adding new features and refining existing functionalities.</p>
+<ol start="6">
+<li>Continuous Feedback and Adaptation:</li>
+</ol>
+<p>Throughout the development process, stakeholders, including local office authorities and potential end-users, will provide regular feedback on the system's features and functionality.</p>
+<p>Feedback will be incorporated during the sprint reviews and retrospectives, allowing for continuous improvement and adjustments to the system based on evolving needs and emerging requirements.</p>
+<ol start="7">
+<li>Sprint Review and Demo:</li>
+</ol>
+<p>At the end of each sprint, a sprint review will be conducted to showcase the completed user stories and gather feedback from stakeholders.</p>
+<p>Stakeholders will have the opportunity to test the system, provide feedback, and suggest modifications or new requirements to guide subsequent sprints.</p>
+<ol start="8">
+<li>Sprint Retrospective:</li>
+</ol>
+<p>After each sprint, a retrospective meeting will be held to evaluate the team's performance, identify areas for improvement, and implement necessary adjustments to enhance efficiency and productivity.</p>
+<ol start="9">
+<li>Release and Deployment:</li>
+</ol>
+<p>Once all the planned sprints are completed and the e-LO system meets the desired quality standards, it will be released and deployed to the production environment.</p>
+<p>Post-deployment support will be provided to ensure a smooth transition and address any issues or user concerns.</p>
+<p>By adopting the Agile model, the e-LO system will benefit from increased flexibility, early and continuous feedback, and an iterative development approach. This iterative process will allow local office authorities and citizens to have early access to the system, provide valuable insights, and ensure that the final product aligns closely with their requirements and expectations.</p>
+<h2>6.1 Cause of your selection</h2>
+<p>Flexibility and Adaptability:</p>
+<p>The e-LO system's requirements may evolve and change throughout the development process. The Agile model allows for flexibility, enabling the development team to respond to changing needs, incorporate feedback, and adapt the system accordingly.</p>
+<p>Iterative and Incremental Development:</p>
+<p>The Agile model promotes iterative development, allowing the e-LO system to be built incrementally in small, manageable sprints. This approach enables regular delivery of working software, ensuring that local office authorities and citizens can start benefiting from the system's features early on.</p>
+<p>Stakeholder Involvement and Collaboration:</p>
+<p>The e-LO system development involves multiple stakeholders, including local office authorities and potential end-users. The Agile model encourages close collaboration and active involvement of stakeholders throughout the development process, ensuring their needs are understood, and their feedback is incorporated into the system.</p>
+<p>Early and Continuous Feedback:</p>
+<p>The Agile model facilitates frequent interactions with stakeholders, providing opportunities for early and continuous feedback. This feedback helps shape the system's features and functionality, ensuring that it aligns closely with the expectations and requirements of local office authorities and citizens.</p>
+<p>Enhanced Transparency and Visibility:</p>
+<p>The Agile model promotes transparency within the development team and stakeholders. Through regular sprint reviews and demos, stakeholders can see the progress made, provide feedback, and make informed decisions about the direction of the e-LO system.</p>
+<p>Efficient Issue Identification and Resolution:</p>
+<p>The Agile model allows for early detection and resolution of issues and challenges. Continuous testing, regular retrospectives, and open communication channels facilitate the identification of potential problems, enabling the development team to address them promptly.</p>
+<p>Time-to-Market Advantage:</p>
+<p>The Agile model supports faster development and time-to-market compared to traditional software development methodologies. By delivering working software in short iterations, the e-LO system can be deployed and made available to local office authorities and citizens sooner, providing early benefits and value.</p>
+<h1>7. Conclusion</h1>
+<p>In conclusion, the e-LO system presents a transformative solution for local office service provision and requesting. By leveraging technology, adopting an Agile development approach, and embracing stakeholder collaboration, the e-LO system has the potential to revolutionize the way local office services are delivered, empowering citizens and improving the overall efficiency of local office operations. With careful planning, diligent execution, and ongoing support, the e-LO system will serve as a cornerstone of efficient, transparent, and citizen-centric local office services in the future.</p>
+<h1><em>8. </em><em>References</em></h1>
+<p><em>Sommerville, I. (2016). Software Engineering (10th ed.). Pearson.</em></p>
+<p><em>Cockburn, A., &amp; Highsmith, J. (2001). Agile software development: The people factor. Computer, 34(11), 131-133. doi: 10.1109/2.963450</em></p>
+<p><a href="http://www.kicukiro.gov.rw"><em>www.kicukiro.gov.rw</em></a></p>
+<p><a href="http://www.rdb.gov.rw"><em>www.rdb.gov.rw</em></a></p>
+<p><a href="http://www.minicofin.gov.rw"><em>www.minicofin.gov.rw</em></a></p>
+<p><a href="http://www.irembo.gov.rw"><em>www.irembo.gov.rw</em></a></p>
+<p><a href="http://www.risa.gov.rw"><em>www.risa.gov.rw</em></a></p>
+<p><strong><u>Database management system project assignment</u></strong></p>
+<p><strong><u>Section I</u></strong></p>
+<p><strong>Q1. Entities and their corresponding attributes:</strong></p>
+<p><strong><u>Citizen: </u></strong>This entity deals with all people loging in all registering to deliver requests or ask for assistance through the system</p>
+<p>This includes attributes:</p>
+<table>
+<tbody>
+<tr>
+<td width="139">
+<p>Attribute</p>
+</td>
+<td width="499">
+<p>Description</p>
+</td>
+</tr>
+<tr>
+<td width="139">
+<p>citizen_id</p>
+</td>
+<td width="499">
+<p>This is a citizen unique identifier number in the system</p>
+</td>
+</tr>
+<tr>
+<td width="139">
+<p>first_name</p>
+</td>
+<td width="499">
+<p>This the first name of the citizen</p>
+</td>
+</tr>
+<tr>
+<td width="139">
+<p>last_name</p>
+</td>
+<td width="499">
+<p>This the last name of the citizen</p>
+</td>
+</tr>
+<tr>
+<td width="139">
+<p>phone_number</p>
+</td>
+<td width="499">
+<p>Phone number of the citizen</p>
+</td>
+</tr>
+<tr>
+<td width="139">
+<p>email</p>
+</td>
+<td width="499">
+<p>Email of the citizen</p>
+</td>
+</tr>
+<tr>
+<td width="139">
+<p>birth_date</p>
+</td>
+<td width="499">
+<p>This is the birth date of the citizen.(the one on national id)</p>
+</td>
+</tr>
+<tr>
+<td width="139">
+<p>national_id</p>
+</td>
+<td width="499">
+<p>This national id number to be patched on cases and which help to pull more data on the citizen</p>
+</td>
+</tr>
+<tr>
+<td width="139">
+<p>address</p>
+</td>
+<td width="499">
+<p>This is the current living address of the citizen</p>
+</td>
+</tr>
+<tr>
+<td width="139">
+<p>marital_status</p>
+</td>
+<td width="499">
+<p>This shows if he/she is single/married/divorced</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><u>Staff:</u></strong> This entity includes staff members (officers) that are to provide response to citizens and handle their requests. In addition they keeps records and report the progress and cases that were handled.</p>
+<p>They include attributes:</p>
+<table>
+<tbody>
+<tr>
+<td width="319">
+<p>Attributes</p>
+</td>
+<td width="319">
+<p>Description</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Staff_id</p>
+</td>
+<td width="319">
+<p>Staff member number</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>First_name</p>
+</td>
+<td width="319">
+<p>First name of the staff member</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Last_name</p>
+</td>
+<td width="319">
+<p>Last name of the staff member</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Phone_number</p>
+</td>
+<td width="319">
+<p>Phone number</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Email</p>
+</td>
+<td width="319">
+<p>Email of the member</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Position</p>
+</td>
+<td width="319">
+<p>Which position he/she hols</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><u>Report:</u></strong> This deals with all reports (by indicating what was done, who did it, who it was done for and when)</p>
+<p>The attributes are:</p>
+<table>
+<tbody>
+<tr>
+<td width="319">
+<p>Attributes</p>
+</td>
+<td width="319">
+<p>Description</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Report_id</p>
+</td>
+<td width="319">
+<p>Report number</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Staff_id</p>
+</td>
+<td width="319">
+<p>staff identifier from entity of staff</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Citizen_id</p>
+</td>
+<td width="319">
+<p>Citizen identifier from entity of citizen</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Request_id</p>
+</td>
+<td width="319">
+<p>Request number from request entity</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Date</p>
+</td>
+<td width="319">
+<p>The date on which report was filled</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><u>Requests:</u></strong> This includes all case requests, who made them, who handled them, when was it requested, and their status(if they are done or still in processing)</p>
+<p>The attributes are:</p>
+<table>
+<tbody>
+<tr>
+<td width="319">
+<p>Attributes</p>
+</td>
+<td width="319">
+<p>Description</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Request_id</p>
+</td>
+<td width="319">
+<p>Request number</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Citizen_id</p>
+</td>
+<td width="319">
+<p>Citizen identifier from entity of citizen</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Staff_id</p>
+</td>
+<td width="319">
+<p>staff identifier from entity of staff</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Request</p>
+</td>
+<td width="319">
+<p>The request which was delivered</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Date</p>
+</td>
+<td width="319">
+<p>The date on which request was made</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>status</p>
+</td>
+<td width="319">
+<p>the request was handled or still in processing?</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong><u>Login_data_staff: </u></strong>&nbsp;This is an associative entity which connects the staff with their login details (username and password).</p>
+<p>The attributes are:</p>
+<table>
+<tbody>
+<tr>
+<td width="319">
+<p>Attributes</p>
+</td>
+<td width="319">
+<p>Description</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Login_id</p>
+</td>
+<td width="319">
+<p>Login credentials unique identifier</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Staff_id</p>
+</td>
+<td width="319">
+<p>staff identifier from staff entity</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Username</p>
+</td>
+<td width="319">
+<p>Username to be used</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Password</p>
+</td>
+<td width="319">
+<p>Password to be used</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><u>Login_citizen: </u></strong>This is the same as the above associative entity except that it is for citizens instead of staff members.</p>
+<p>The attributes are:</p>
+<table>
+<tbody>
+<tr>
+<td width="319">
+<p>Attributes</p>
+</td>
+<td width="319">
+<p>description</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Login_citizen_id</p>
+</td>
+<td width="319">
+<p>Login credentials unique identifier</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Citizen_id</p>
+</td>
+<td width="319">
+<p>Citizen identifier from citizen entity</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Username</p>
+</td>
+<td width="319">
+<p>Username to be used</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>password</p>
+</td>
+<td width="319">
+<p>Password to be used</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><u>Updates_on_citizen:</u></strong> this table records what was updated on citizen table</p>
+<table>
+<tbody>
+<tr>
+<td width="319">
+<p>attributes</p>
+</td>
+<td width="319">
+<p>description</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>update_id</p>
+</td>
+<td width="319">
+<p>Record unique identifier</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>citizen_id</p>
+</td>
+<td width="319">
+<p>Citizen identifier</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>updated_column</p>
+</td>
+<td width="319">
+<p>Which column was updated</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>old_value</p>
+</td>
+<td width="319">
+<p>What was there</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>new_value</p>
+</td>
+<td width="319">
+<p>What is there now</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>update_time</p>
+</td>
+<td width="319">
+<p>When was the update made</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong><u>Deleted_citizen: </u></strong>&nbsp;record who was deleted and related info:</p>
+<table>
+<tbody>
+<tr>
+<td width="319">
+<p>attributes</p>
+</td>
+<td width="319">
+<p>description</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Deleted_citizen_id</p>
+</td>
+<td width="319">
+<p>Unique identifier of record</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>first_name</p>
+</td>
+<td width="319">
+<p>Firstname of the deleted citizen</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>last_name</p>
+</td>
+<td width="319">
+<p>Lastname of the deleted citizen</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>phone_number</p>
+</td>
+<td width="319">
+<p>Phone number of the deleted citizen</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>email</p>
+</td>
+<td width="319">
+<p>Email of the deleted citizen</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>birth_date</p>
+</td>
+<td width="319">
+<p>Date of birth of the deleted citizen</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>address</p>
+</td>
+<td width="319">
+<p>Address of the deleted citizen</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>marital_status</p>
+</td>
+<td width="319">
+<p>Single/divorced</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>national_id</p>
+</td>
+<td width="319">
+<p>National identification number</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><u>Deleted_staff: </u></strong>record who was deleted and his info:</p>
+<table>
+<tbody>
+<tr>
+<td width="319">
+<p>attributes</p>
+</td>
+<td width="319">
+<p>description</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Deleted_Staff_id</p>
+</td>
+<td width="319">
+<p>Record identifier</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>First_name</p>
+</td>
+<td width="319">
+<p>Firstname of the deleted staff</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Last_name</p>
+</td>
+<td width="319">
+<p>Lastname of the deleted staff</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Phone_number</p>
+</td>
+<td width="319">
+<p>Phone number of the deleted staff</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Email</p>
+</td>
+<td width="319">
+<p>Email of the deleted staff</p>
+</td>
+</tr>
+<tr>
+<td width="319">
+<p>Position</p>
+</td>
+<td width="319">
+<p>Position he holded</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Q2. An LDM of the above entities:</strong></p>
+<p><strong>Q3.An ERD</strong></p>
+<p><strong><u>Section II:</u></strong></p>
+<p><strong>Q1. Create database of your system</strong></p>
+<p>CREATE DATABASE kwizera_thierry_222003408;</p>
+<p><strong>Q2.Queries to create all tables and their relationships.</strong></p>
+<p>USE kwizera_thierry_222003408;</p>
+<p>-- Create the Citizen table</p>
+<p>CREATE TABLE Citizen (</p>
+<p>citizen_id INT PRIMARY KEY auto_increment,</p>
+<p>first_name VARCHAR(50),</p>
+<p>last_name VARCHAR(50),</p>
+<p>phone_number VARCHAR(15),</p>
+<p>email VARCHAR(100),</p>
+<p>birth_date DATE,</p>
+<p>national_id VARCHAR(20),</p>
+<p>address VARCHAR(255),</p>
+<p>marital_status VARCHAR(20)</p>
+<p>);</p>
+<p>-- Create the Staff table</p>
+<p>CREATE TABLE Staff (</p>
+<p>Staff_id INT PRIMARY KEY auto_increment,</p>
+<p>First_name VARCHAR(50),</p>
+<p>Last_name VARCHAR(50),</p>
+<p>Phone_number VARCHAR(15),</p>
+<p>Email VARCHAR(100),</p>
+<p>Position VARCHAR(50)</p>
+<p>);</p>
+<p>-- Create the Report table</p>
+<p>CREATE TABLE Report (</p>
+<p>Report_id INT PRIMARY KEY auto_increment,</p>
+<p>Staff_id INT,</p>
+<p>Citizen_id INT,</p>
+<p>Request_id INT,</p>
+<p>Date DATE,</p>
+<p>FOREIGN KEY (Staff_id) REFERENCES Staff(Staff_id),</p>
+<p>FOREIGN KEY (Citizen_id) REFERENCES Citizen(citizen_id)</p>
+<p>);</p>
+<p>-- Create the Requests table</p>
+<p>CREATE TABLE Requests (</p>
+<p>Request_id INT PRIMARY KEY auto_increment,</p>
+<p>Citizen_id INT,</p>
+<p>Staff_id INT,</p>
+<p>Request TEXT,</p>
+<p>Date DATE,</p>
+<p>Status VARCHAR(20),</p>
+<p>FOREIGN KEY (Citizen_id) REFERENCES Citizen(citizen_id),</p>
+<p>FOREIGN KEY (Staff_id) REFERENCES Staff(Staff_id)</p>
+<p>);</p>
+<p>-- Create the Login_data_staff table</p>
+<p>CREATE TABLE Login_data_staff (</p>
+<p>Login_id INT PRIMARY KEY auto_increment,</p>
+<p>Staff_id INT,</p>
+<p>Username VARCHAR(50),</p>
+<p>Password VARCHAR(100),</p>
+<p>FOREIGN KEY (Staff_id) REFERENCES Staff(Staff_id)</p>
+<p>);</p>
+<p>-- Create the Login_citizen table</p>
+<p>CREATE TABLE Login_citizen (</p>
+<p>Login_citizen_id INT PRIMARY KEY auto_increment,</p>
+<p>Citizen_id INT,</p>
+<p>Username VARCHAR(50),</p>
+<p>Password VARCHAR(100),</p>
+<p>FOREIGN KEY (Citizen_id) REFERENCES Citizen(citizen_id)</p>
+<p>);</p>
+<p>CREATE TABLE updates_on_citizen (</p>
+<p>update_id INT AUTO_INCREMENT PRIMARY KEY,</p>
+<p>citizen_id INT NOT NULL,</p>
+<p>updated_column VARCHAR(50) NOT NULL,</p>
+<p>old_value TEXT,</p>
+<p>new_value TEXT,</p>
+<p>update_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,</p>
+<p>FOREIGN KEY (citizen_id) REFERENCES Citizen(citizen_id)</p>
+<p>);</p>
+<p>CREATE TABLE deleted_citizen (</p>
+<p>Deleted_citizen_id INT PRIMARY KEY auto_increment,</p>
+<p>first_name VARCHAR(50),</p>
+<p>last_name VARCHAR(50),</p>
+<p>phone_number VARCHAR(15),</p>
+<p>email VARCHAR(100),</p>
+<p>birth_date DATE,</p>
+<p>national_id VARCHAR(20),</p>
+<p>address VARCHAR(255),</p>
+<p>marital_status VARCHAR(20)</p>
+<p>);</p>
+<p>CREATE TABLE deleted_staff (</p>
+<p>Deleted_Staff_id INT PRIMARY KEY auto_increment,</p>
+<p>First_name VARCHAR(50),</p>
+<p>Last_name VARCHAR(50),</p>
+<p>Phone_number VARCHAR(15),</p>
+<p>Email VARCHAR(100),</p>
+<p>Position VARCHAR(50)</p>
+<p>);</p>
+<p><strong>Q3. Queries to insert data</strong></p>
+<p>INSERT INTO Citizen VALUES (1, 'thierry', 'kwizera', '1234567890', 'kwizzo@gmail.com', '1990-01-15', '123456789', '123 Main St', 'Single');</p>
+<p>INSERT INTO Staff VALUES (101, 'cyiza', 'marcel', '9876543210', 'cyizzo@gmail.com', 'Officer');</p>
+<p>INSERT INTO Requests VALUES (301, 1, 101, 'asking for single certificate', '2023-08-15', 'processing');</p>
+<p>INSERT INTO Login_citizen VALUES (&lsquo; &rsquo;,1,&rsquo;kwzrthieery&rsquo;,&rsquo;mucyo123456&rsquo;);</p>
+<p>The remaining tables are completed using triggers and stored procedures.</p>
+<p><strong>Q4.Queries to display information:</strong></p>
+<p>-- Display all data from the Citizen table</p>
+<p>SELECT * FROM Citizen;</p>
+<p>-- Display all data from the Staff table</p>
+<p>SELECT * FROM Staff;</p>
+<p>-- Display all data from the Report table</p>
+<p>SELECT * FROM Report;</p>
+<p>-- Display all data from the Requests table</p>
+<p>SELECT * FROM Requests;</p>
+<p>-- Display all data from the Login_data_staff table</p>
+<p>SELECT * FROM Login_data_staff;</p>
+<p>-- Display all data from the Login_citizen table</p>
+<p>SELECT * FROM Login_citizen;</p>
+<p><strong>Q5. Queries to update data in two tables:</strong></p>
+<p>-- Update the email of a citizen with citizen_id 1</p>
+<p>UPDATE Citizen SET email = 'new_email@example.com' WHERE citizen_id = 1;</p>
+<p>-- Update the Position of a staff member with Staff_id 101</p>
+<p>UPDATE Staff SET Position = 'Senior Officer' WHERE Staff_id = 101;</p>
+<p><strong><u>Section III:</u></strong></p>
+<p><strong>Q1. A view to insert data into your tables.</strong></p>
+<p>CREATE VIEW InsertIntoCitizen AS</p>
+<p>SELECT * FROM Citizen;</p>
+<p>This view doesn't actually insert data, but it acts as a representation of the Citizen table for selection purposes.</p>
+<p><strong>Q2. A view to display all the information in your tables</strong></p>
+<p>CREATE VIEW AllInformation_in_citizen AS</p>
+<p>SELECT * FROM Citizen;</p>
+<p>CREATE VIEW AllInformation_in_Staff AS</p>
+<p>SELECT * FROM Staff;</p>
+<p>CREATE VIEW AllInformation_in_Reports AS</p>
+<p>SELECT * FROM Reports;</p>
+<p>CREATE VIEW AllInformation_in_Requests AS</p>
+<p>SELECT * FROM Requests;</p>
+<p>CREATE VIEW AllInformation_in_Login_data_staff AS</p>
+<p>SELECT * FROM Login_data_staff;</p>
+<p>CREATE VIEW AllInformation_in_Login_citizen AS</p>
+<p>SELECT * FROM Login_citizen;</p>
+<p><strong>Q3. A view to update information in tables</strong></p>
+<p>CREATE VIEW UpdateInfoView_IN_citizen AS</p>
+<p>SELECT * FROM Citizen;</p>
+<p>CREATE VIEW UpdateInfoView_in_staff AS</p>
+<p>SELECT * FROM Staff;</p>
+<p>In practice, you can't directly update data through a view; this is just a SELECT view for illustrative purposes.</p>
+<p><strong>Q4. A view to delete data in tables</strong></p>
+<p>CREATE VIEW DeleteDataView_citizen AS</p>
+<p>SELECT * FROM Citizen WHERE marital_status = 'Single';</p>
+<p>CREATE VIEW DeleteDataView_staff AS</p>
+<p>SELECT * FROM Staff WHERE Position = 'Intern';</p>
+<p>In practice, you can't directly delete data through a view; this is just a SELECT view for illustrative purposes.</p>
+<p><strong>Q5. Create a View with a Sub-Query:</strong></p>
+<p>CREATE VIEW SubqueryView AS</p>
+<p>SELECT c.first_name, c.last_name, r.Request</p>
+<p>FROM Citizen c</p>
+<p>JOIN Requests r ON c.citizen_id = r.Citizen_id</p>
+<p>WHERE r.Status = 'processing';</p>
+<p><strong><u>SECTION IV</u></strong></p>
+<p><strong>Q1. A stored procedure to insert data into tables</strong></p>
+<p><strong>Table 1:staff</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE PROCEDURE InsertIntoCitizen(</p>
+<p>IN p_first_name VARCHAR(50),</p>
+<p>IN p_last_name VARCHAR(50),</p>
+<p>IN p_phone_number VARCHAR(15),</p>
+<p>IN p_email VARCHAR(100),</p>
+<p>IN p_birth_date DATE,</p>
+<p>IN p_national_id VARCHAR(20),</p>
+<p>IN p_address VARCHAR(200),</p>
+<p>IN p_marital_status VARCHAR(20)</p>
+<p>)</p>
+<p>BEGIN</p>
+<p>INSERT INTO Citizen (first_name, last_name, phone_number, email, birth_date, national_id, address, marital_status)</p>
+<p>VALUES (p_first_name, p_last_name, p_phone_number, p_email, p_birth_date, p_national_id, p_address, p_marital_status);</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>Table 2: citizen</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE PROCEDURE InsertIntoStaff(</p>
+<p>IN p_first_name VARCHAR(50),</p>
+<p>IN p_last_name VARCHAR(50),</p>
+<p>IN p_phone_number VARCHAR(15),</p>
+<p>IN p_email VARCHAR(100),</p>
+<p>IN p_position VARCHAR(50)</p>
+<p>)</p>
+<p>BEGIN</p>
+<p>INSERT INTO Staff (First_name, Last_name, Phone_number, Email, Position)</p>
+<p>VALUES (p_first_name, p_last_name, p_phone_number, p_email, p_position);</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>Q2.</strong><strong>A stored procedure to display all the information in tables</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE PROCEDURE DisplayAllInformation()</p>
+<p>BEGIN</p>
+<p>SELECT * FROM Citizen;</p>
+<p>SELECT * FROM Staff;</p>
+<p>SELECT * FROM Reports;</p>
+<p>SELECT * FROM Requests;</p>
+<p>SELECT * FROM Login_data_staff;</p>
+<p>SELECT * FROM Login_citizen;</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>Q3.</strong><strong>A stored procedure to update information in any of the two tables of the system.</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE PROCEDURE UpdateInformation(</p>
+<p>IN p_table_name VARCHAR(50),</p>
+<p>IN p_column_name VARCHAR(50),</p>
+<p>IN p_new_value VARCHAR(255),</p>
+<p>IN p_identifier INT</p>
+<p>)</p>
+<p>BEGIN</p>
+<p>DECLARE SQL_STATEMENT VARCHAR(1000);</p>
+<p>SET @SQL_STATEMENT = CONCAT('UPDATE ', p_table_name, ' SET ', p_column_name, ' = ?', ' WHERE ', p_identifier, ' = ?');</p>
+<p>PREPARE stmt FROM @SQL_STATEMENT;</p>
+<p>SET @new_value = p_new_value;</p>
+<p>EXECUTE stmt USING @new_value, p_identifier;</p>
+<p>DEALLOCATE PREPARE stmt;</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>An example how to use the above code:</strong></p>
+<p>-- Update the 'email' column for a specific citizen (for example, with citizen_id = 1)</p>
+<p>CALL UpdateInformation('Citizen', 'email', 'newemail@example.com', 1);</p>
+<p>-- Update the 'Position' column for a specific staff member (for example, with Staff_id = 101)</p>
+<p>CALL UpdateInformation('Staff', 'Position', 'Senior Officer', 101);</p>
+<p><strong>Q4.</strong><strong>A stored procedure to delete data in any two of tables according to any simple condition of choice</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE PROCEDURE DeleteDataBasedOnCondition()</p>
+<p>BEGIN</p>
+<p>-- Delete data from the Citizen table where marital_status is 'Single'</p>
+<p>DELETE FROM Citizen WHERE marital_status = 'Single';</p>
+<p>-- Delete data from the Staff table where Position is 'Intern'</p>
+<p>DELETE FROM Staff WHERE Position = 'Intern';</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>Q5.</strong><strong>&nbsp;A </strong><strong>Stored procedure that create a view of your choice that considers subquery.</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE PROCEDURE CreateEmployeeWithMostReportsView()</p>
+<p>BEGIN</p>
+<p>-- Create a view that shows employees with the most reports they've handled</p>
+<p>CREATE OR REPLACE VIEW EmployeeWithMostReports AS</p>
+<p>SELECT</p>
+<p>S.Staff_id,</p>
+<p>S.First_name,</p>
+<p>S.Last_name,</p>
+<p>R.TotalReportsHandled</p>
+<p>FROM</p>
+<p>Staff S</p>
+<p>JOIN</p>
+<p>(SELECT</p>
+<p>Staff_id,</p>
+<p>COUNT(*) AS TotalReportsHandled</p>
+<p>FROM</p>
+<p>Report</p>
+<p>GROUP BY</p>
+<p>Staff_id</p>
+<p>ORDER BY</p>
+<p>TotalReportsHandled DESC</p>
+<p>LIMIT 1) R</p>
+<p>ON</p>
+<p>S.Staff_id = R.Staff_id;</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong><u>SECTION V</u></strong></p>
+<p><strong>Q1. After inserting triggers for any two tables of your choice</strong></p>
+<p><strong>After insert trigger on request to insert data in reports :</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE TRIGGER AfterInsertRequestsToReports</p>
+<p>AFTER INSERT ON Requests</p>
+<p>FOR EACH ROW</p>
+<p>BEGIN</p>
+<p>-- Insert a new record into the Reports table</p>
+<p>INSERT INTO Reports (Staff_id, Citizen_id, Request_id, Date)</p>
+<p>VALUES (NEW.Staff_id, NEW.Citizen_id, NEW.Request_id, NOW());</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>After insert trigger on staff table input in login_data_staff:</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE TRIGGER AfterInsertStaff</p>
+<p>AFTER INSERT ON Staff</p>
+<p>FOR EACH ROW</p>
+<p>BEGIN</p>
+<p>-- Generate a random 12-character password</p>
+<p>SET @password = SUBSTRING(MD5(RAND()), 1, 12);</p>
+<p>-- Generate the username based on specified rules</p>
+<p>SET @consonants = 'bcdfghjklmnpqrstvwxyz';</p>
+<p>SET @username =</p>
+<p>CONCAT(</p>
+<p>SUBSTRING(@consonants, 1, 1),</p>
+<p>SUBSTRING(@consonants, 2, 1),</p>
+<p>SUBSTRING(NEW.First_name, 1, 1),</p>
+<p>SUBSTRING(NEW.Last_name, 1, 1),</p>
+<p>NEW.Staff_id</p>
+<p>);</p>
+<p>-- Insert the generated username and password into Login_data_staff</p>
+<p>INSERT INTO Login_data_staff (Staff_id, Username, Password)</p>
+<p>VALUES (NEW.Staff_id, @username, @password);</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>Q2.</strong><strong>After-update triggers for any two tables of your choice</strong></p>
+<p><strong>Update on request which changes report:</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE TRIGGER AfterUpdateRequest</p>
+<p>AFTER UPDATE ON Requests</p>
+<p>FOR EACH ROW</p>
+<p>BEGIN</p>
+<p>-- Check if the status of the request has changed to 'Completed'</p>
+<p>IF NEW.status = 'Completed' THEN</p>
+<p>-- Update the corresponding report with the current date</p>
+<p>UPDATE Report</p>
+<p>SET Date = NOW()</p>
+<p>WHERE Request_id = NEW.Request_id;</p>
+<p>END IF;</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>After update in citizen table, update the update_on_citizen table;</strong></p>
+<p>&nbsp;DELIMITER //</p>
+<p>CREATE TRIGGER AfterUpdateCitizen</p>
+<p>AFTER UPDATE ON Citizen</p>
+<p>FOR EACH ROW</p>
+<p>BEGIN</p>
+<p>DECLARE updated_columns VARCHAR(255);</p>
+<p>IF OLD.first_name != NEW.first_name THEN</p>
+<p>SET updated_columns = CONCAT(updated_columns, 'first_name ');</p>
+<p>END IF;</p>
+<p>IF OLD.last_name != NEW.last_name THEN</p>
+<p>SET updated_columns = CONCAT(updated_columns, 'last_name ');</p>
+<p>END IF;</p>
+<p>IF OLD.phone_number != NEW.phone_number THEN</p>
+<p>SET updated_columns = CONCAT(updated_columns, 'phone_number ');</p>
+<p>END IF;</p>
+<p>IF OLD.email != NEW.email THEN</p>
+<p>SET updated_columns = CONCAT(updated_columns, 'email ');</p>
+<p>END IF;</p>
+<p>-- Insert the updated data into the 'updates_on_citizen' table</p>
+<p>IF LENGTH(updated_columns) &gt; 0 THEN</p>
+<p>INSERT INTO updates_on_citizen (citizen_id, updated_column, old_value, new_value, update_time)</p>
+<p>VALUES (</p>
+<p>NEW.citizen_id,</p>
+<p>updated_columns,</p>
+<p>CONCAT_WS('|', OLD.first_name, OLD.last_name, OLD.phone_number, OLD.email), -- Old values</p>
+<p>CONCAT_WS('|', NEW.first_name, NEW.last_name, NEW.phone_number, NEW.email), -- New values</p>
+<p>NOW()</p>
+<p>);</p>
+<p>END IF;</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>Q3.</strong><strong>After deleting triggers for any two tables of your choice</strong></p>
+<p><strong>After delete in citizen:</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE TRIGGER AfterDeleteCitizen</p>
+<p>AFTER DELETE ON Citizen</p>
+<p>FOR EACH ROW</p>
+<p>BEGIN</p>
+<p>INSERT INTO deleted_citizen (citizen_id, first_name, last_name, phone_number, email, birth_date, national_id, address, marital_status)</p>
+<p>VALUES (OLD.citizen_id, OLD.first_name, OLD.last_name, OLD.phone_number, OLD.email, OLD.birth_date, OLD.national_id, OLD.address, OLD.marital_status);</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>After delete on staff:</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE TRIGGER AfterDeleteStaff</p>
+<p>AFTER DELETE ON Staff</p>
+<p>FOR EACH ROW</p>
+<p>BEGIN</p>
+<p>INSERT INTO deleted_staff (Staff_id, First_name, Last_name, Phone_number, Email, Position)</p>
+<p>VALUES (OLD.Staff_id, OLD.First_name, OLD.Last_name, OLD.Phone_number, OLD.Email, OLD.Position);</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong>after deleting a citizen ,remove all related records:</strong></p>
+<p>DELIMITER //</p>
+<p>CREATE TRIGGER AfterDeleteCitizen_table</p>
+<p>AFTER DELETE ON Citizen</p>
+<p>FOR EACH ROW</p>
+<p>BEGIN</p>
+<p>-- Delete related records in other tables except 'Report', 'Deleted', and 'Updated'</p>
+<p>DELETE FROM Requests WHERE Citizen_id = OLD.citizen_id;</p>
+<p>DELETE FROM Login_citizen WHERE Citizen_id = OLD.citizen_id;</p>
+<p>END //</p>
+<p>DELIMITER ;</p>
+<p><strong><u>SECTION VI</u></strong></p>
+<p><strong>Q1. A user with your name as username and your student number as password and grant all privileges to the created user</strong></p>
+<p>CREATE USER '222003408'@'localhost' IDENTIFIED BY '222003408';</p>
+<p>GRANT ALL PRIVILEGES ON *.* TO '222003408'@'localhost';</p>
+<p>FLUSH PRIVILEGES;</p>
+<p><strong>Q2.</strong><strong>A user with your "names_semi" as username and your student number as password and give him insert, update, and delete privileges to the created user</strong></p>
+<p>CREATE USER 'names_semi'@'localhost' IDENTIFIED BY '222003408';</p>
+<p>GRANT INSERT, UPDATE, DELETE ON *.* TO 'names_semi'@'localhost';</p>
+<p>FLUSH PRIVILEGES;</p>
+<p><strong>Q3. Revoke insert privileges to the last user you created</strong></p>
+<p>REVOKE INSERT ON *.* FROM 'names_semi'@'localhost';</p>
+<p>FLUSH PRIVILEGES;</p>
+<p><strong><u>Java Programming Forms description</u></strong></p>
+<p><strong><u>1.Welcome Page</u></strong></p>
+<p>This the first page of the system where system will choose destination depending on the function he/she possess in the company.</p>
+<p>From this form 2 button login, citizen and staff are there with different direction and function in the system but all having same goal.</p>
+<p>Citizen: this button is dedicated for system admin to login so that he/she can do more in the system, like adding employee or department and many more.</p>
+<p>Staff: button dedicated to other system user to login and perform some tasks that they are allowed to do so depending on the task they hold in the company.</p>
+<p><strong><u>2.Citizen login</u></strong></p>
+<p>As we have described in above page citizen button will direct to this citizen login page.</p>
+<p><strong>Login Button</strong>: If clicked it will verify the credentials entered if it is corrected will be redirected to another respective form. If the credentials aren&rsquo;t correct it will display the error.</p>
+<p><strong>Reset Button</strong>: It will remove characters in the textfields.</p>
+<p><strong>SignUp Button</strong>: if clicked will be redirected to another signup form:</p>
+<p>After entering every thing needed and clicking the sign up button, it will register the new data into the database . to be used later while logging in and anywhere else it may be needed.</p>
+<p><strong><u>2.1 Citizen logged in (when credentials are correct (matches the one in the database))</u></strong></p>
+<p>Will be directed to the logged IN form (the citizen&rsquo;s portal):</p>
+<p><strong>Make a request: </strong>when this button is clicked it will provide a window allowing a citizen to make a request. On send it will send the request in database to be sent to an appropriate staff member.</p>
+<p><strong>View request Status/Response: </strong>when clicked it will display the form asking for a request id then show the status of the given request:</p>
+<p><strong>View Staff Assigned: </strong>when clicked it will view the staff assigned to their request:</p>
+<p><strong>Logout: </strong>when clicked it will logout and close the form.</p>
+<p><strong>Delete Account: </strong>it will prompt the user if he/she is sure if the user clicks yes then their corresponding account will be deleted from the database.</p>
+<ol start="3">
+<li><strong><u> Staff Login:</u></strong></li>
+</ol>
+<p>After clicking on Staff on the welcome page form you are directed to this form. Which prompt the user to enter the username and the password and then verify it against the data in the database.</p>
+<p><strong>3.1 Reset: </strong>This removes all characters in all textfields.</p>
+<p><strong>3.2 Login: </strong>When clicked it will verify the data entered it doesn&rsquo;t match then it will say it. If it matches with the one in the database he/she will be directed to the stafflogged in form (the staff portal).</p>
+<p><strong>3.2.1 View Received Request: </strong>When clicked on, it will view the requests received or assigned and or information regarding it. Including the date it was submitted, request ID, the request and the citizen id related to the citizen who submitted the request</p>
+<p><strong>3.2.2 View Citizen Data: </strong>when this button is clicked It will prompt the user to input the citizen id of the citizen you want to view information about. Then the system will use the citizen id to lookup and view data in the database.</p>
+<p><strong>3.2.3 Provide Response: </strong>When clicked it will ask the user to enter the request id of the request he/she want to provide response for. Then provide a form with a textfield to enter the response. After entering the response and clicking the OK button, it will send the data to the database to be sent to the citizen.</p>
+<p><strong>3.2.4 LogOUT: </strong>When clicked it will log out the current staff and dispose all forms.</p>
+<p><strong>END</strong></p>
+    </div>
+</body>
+</html>
